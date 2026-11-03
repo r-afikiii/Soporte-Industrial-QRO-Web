@@ -233,7 +233,7 @@ Esto permite mantener una implementación sencilla sin necesidad de un backend p
 Puedes clonar el repositorio:
 
 ```bash
-git clone <URL-DEL-REPOSITORIO>
+git clone https://github.com/r-afikiii/Soporte-Industrial-QRO-Web.git
 ```
 
 Entra al proyecto:
