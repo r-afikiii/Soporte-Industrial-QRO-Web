@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://r-afikiii.github.io/Soporte-Industrial-QRO-Web/sitemap.xml
