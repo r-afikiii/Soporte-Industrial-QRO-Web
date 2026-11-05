@@ -1861,3 +1861,136 @@ h2 {
     overflow-wrap: anywhere;
   }
 }
+
+/* Error 404 page: layout, typography, and responsive behavior. */
+
+.error-body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.error-nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.error-home-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: var(--font-size-s);
+  font-weight: var(--font-weight-semibold);
+}
+
+.error-home-link:hover {
+  color: var(--secondary-color);
+}
+
+.error-main {
+  flex: 1;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(180deg, #f8faff 0%, var(--white-color) 100%);
+}
+
+.error-section {
+  padding-block: 90px;
+  text-align: center;
+}
+
+.error-content {
+  max-width: 660px;
+  margin-inline: auto;
+}
+
+.error-label {
+  display: inline-block;
+  padding: 7px 16px;
+  border: 1px solid #d8e6fa;
+  border-radius: 100px;
+  background: var(--soft-blue-color);
+  color: var(--secondary-dark-color);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 0.12em;
+}
+
+.error-number {
+  margin-block: 12px;
+  color: var(--primary-color);
+  font-size: clamp(7rem, 20vw, 13rem);
+  font-weight: 800;
+  letter-spacing: -0.09em;
+  line-height: 1.15;
+}
+
+.error-number span {
+  color: var(--secondary-color);
+}
+
+.error-content h1 {
+  margin: 0 auto 20px;
+  font-size: clamp(1.9rem, 4vw, 3rem);
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+}
+
+.error-description {
+  max-width: 540px;
+  margin: 0 auto 32px;
+  color: var(--muted-color);
+  font-size: var(--font-size-n);
+  line-height: 1.85;
+}
+
+.error-button {
+  flex-direction: row-reverse;
+}
+
+.error-footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.error-footer-inner a {
+  color: #b1bfd2;
+  font-size: var(--font-size-s);
+  text-decoration: none;
+}
+
+.error-footer-inner a:hover {
+  color: var(--white-color);
+}
+
+/* Error page: phone screen configuration. */
+@media (max-width: 480px) {
+  .error-section {
+    padding-block: 60px;
+  }
+
+  .error-number {
+    font-size: clamp(6rem, 28vw, 9rem);
+  }
+
+  .error-nav-actions {
+    gap: 12px;
+  }
+
+  .error-home-link {
+    display: none;
+  }
+
+  .error-description {
+    font-size: var(--font-size-s);
+  }
+
+  .error-footer-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+  }
+}

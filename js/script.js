@@ -154,6 +154,16 @@
       companyPlaceholder: "Company name",
       detailsPlaceholder:
         "Briefly describe the equipment, part, material, or plant need...",
+
+      // Error 404 page translations.
+      errorPageTitle: "Page not found | Soporte Industrial QRO",
+      errorNavHome: "Home",
+      errorLabel: "ERROR 404",
+      errorHeading: "It looks like this page doesn't exist.",
+      errorDescription:
+        "The page you're looking for may have moved or is no longer available. You can return to the homepage and continue exploring our industrial solutions.",
+      errorBackHome: "Back to homepage",
+      errorFooterHome: "Return to website",
     },
   };
 

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101d32" />
+
+    <!-- Error page SEO -->
+    <meta name="robots" content="noindex, follow" />
+    <title data-i18n="errorPageTitle">
+      Página no encontrada | Soporte Industrial QRO
+    </title>
+
+    <!-- Website resources -->
+    <link rel="icon" href="assets/images/icon.webp" type="image/webp" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body class="error-body">
+    <!-- Main site header -->
+    <header class="site-header">
+      <nav class="container nav" aria-label="Navegación principal">
+        <a class="brand" href="./" aria-label="Soporte Industrial QRO, inicio">
+          <img class="brand-logo" src="assets/images/icon.webp" alt="" />
+          <span class="brand-copy">
+            <strong>Soporte Industrial QRO</strong>
+            <span data-i18n="brandTagline"> Soluciones para la industria </span>
+          </span>
+        </a>
+
+        <div class="error-nav-actions">
+          <a class="error-home-link" href="./" data-i18n="errorNavHome">
+            Inicio
+          </a>
+
+          <button
+            class="language-toggle"
+            id="language-toggle"
+            type="button"
+            aria-label="Cambiar idioma del sitio a inglés"
+            data-i18n-aria-label="languageButtonAria"
+          >
+            <span data-i18n="languageButton">English</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Error page content -->
+    <main class="error-main">
+      <section class="error-section container" aria-labelledby="error-title">
+        <div class="error-content">
+          <span class="error-label" data-i18n="errorLabel"> ERROR 404 </span>
+
+          <div class="error-number" aria-hidden="true">404<span>.</span></div>
+
+          <h1 id="error-title" data-i18n="errorHeading">
+            Parece que esta página no existe.
+          </h1>
+
+          <p class="error-description" data-i18n="errorDescription">
+            La página que buscas pudo haber cambiado de dirección o ya no está
+            disponible. Puedes regresar al inicio y continuar explorando
+            nuestras soluciones industriales.
+          </p>
+
+          <a class="btn btn-primary error-button" href="./">
+            <span data-i18n="errorBackHome"> Volver al inicio </span>
+
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M19 12H5M11 18l-6-6 6-6" />
+            </svg>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Site footer -->
+    <footer class="footer">
+      <div class="container error-footer-inner">
+        <p>&copy; <span id="year">2026</span> Soporte Industrial QRO.</p>
+
+        <a href="./" data-i18n="errorFooterHome"> Regresar al sitio </a>
+      </div>
+    </footer>
+
+    <!-- Website interactions -->
+    <script defer src="js/script.js"></script>
+  </body>
+</html>

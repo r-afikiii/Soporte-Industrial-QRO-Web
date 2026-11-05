@@ -89,13 +89,13 @@ Soporte_Industrial_QRO_Web/
 │
 ├── assets/
 │   ├── images/
-│   │   ├── home.png
-│   │   ├── icon.png
-│   │   ├── img.png
-│   │   └── info.png
+│   │   ├── home.webp
+│   │   ├── icon.webp
+│   │   ├── img.webp
+│   │   └── info.webp
 │   │
 │   └── videos/
-│       └── video_example.mp4
+│       └── video_optimized.mp4
 │
 ├── css/
 │   └── styles.css
@@ -292,7 +292,7 @@ assets/videos/
 El favicon y logotipo principal utilizan:
 
 ```text
-assets/images/icon.png
+assets/images/icon.webp
 ```
 
 ---
@@ -321,7 +321,7 @@ Querétaro, México
 Correo:
 
 ```text
-sigro.bm@gmail.com
+siqro.bm@gmail.com
 ```
 
 ---
